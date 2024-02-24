@@ -1,0 +1,49 @@
+{
+	"name": "@persontric/adapter-mongodb",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "MongoDB adapter for Persontric",
+	"keywords": [
+		"persontric",
+		"auth",
+		"authentication",
+		"adapter",
+		"mongodb",
+		"mongo"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/persontric/adapter-mongodb"
+	},
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"types": "index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.md",
+		"*.js",
+		"*.json",
+		"*.ts"
+	],
+	"scripts": {
+		"build": "shx rm -rf ./dist/* && tsc",
+		"test.mongodb": "tsx test.mongodb/index.ts",
+		"test.mongoose": "tsx test.mongoose/index.ts",
+		"auri.build": "pnpm build"
+	},
+	"peerDependencies": {
+		"persontric": "^0.0.0",
+		"mongodb": "6.3.0"
+	},
+	"devDependencies": {
+		"@persontric/adapter-test": "workspace:*",
+		"dotenv": "^16.4.5",
+		"persontric": "workspace:*",
+		"mongodb": "^6.3.0",
+		"mongoose": "^8.2.0",
+		"tsx": "^4.7.1"
+	}
+}
