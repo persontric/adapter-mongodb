@@ -44,6 +44,6 @@
 		"persontric": "workspace:*",
 		"mongodb": "^6.7.0",
 		"mongoose": "^8.4.3",
-		"tsx": "^4.15.6"
+		"tsx": "^4.15.7"
 	}
 }
