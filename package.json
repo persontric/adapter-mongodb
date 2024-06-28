@@ -36,14 +36,14 @@
 	},
 	"peerDependencies": {
 		"persontric": "^0.0.0",
-		"mongodb": "6.7.0"
+		"mongodb": "6.8.0"
 	},
 	"devDependencies": {
 		"@persontric/adapter-test": "workspace:*",
 		"dotenv": "^16.4.5",
 		"persontric": "workspace:*",
-		"mongodb": "^6.7.0",
-		"mongoose": "^8.4.3",
+		"mongodb": "^6.8.0",
+		"mongoose": "^8.4.4",
 		"tsx": "^4.15.7"
 	}
 }
