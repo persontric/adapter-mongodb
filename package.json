@@ -43,7 +43,7 @@
 		"dotenv": "^16.4.5",
 		"persontric": "workspace:*",
 		"mongodb": "^6.8.0",
-		"mongoose": "^8.5.0",
+		"mongoose": "^8.5.1",
 		"tsx": "^4.16.2"
 	}
 }
